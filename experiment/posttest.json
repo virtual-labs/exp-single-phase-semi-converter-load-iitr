@@ -1,39 +1,55 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
+    "version": 2.0,
+    "questions":[
+		{
+			"question": "A single phase semi-converter is having continuous conduction, then for what angle each thyristor will conduct?",
+			"answers": {
+				"a": "α",
+				"b": "π",
+				"c": "π+α",
+				"d": "π-α"
+			},
+			"correctAnswer": "d"
+		},
+		{
+			"question": "The control circuit or triggering circuit not required in which rectifiers ?",
+			"answers": {
+				"a": "Controlled",
+				"b": "Uncontrolled",
+				"c": "Both a and b",
+				"d": "None of these"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "Which of the following is true for the same triggering angle and ratings ?",
+			"answers": {
+				"a": "A semi-converter operates at lower output voltage than a full converter",
+				"b": "A semi-converter operates at higher output voltage than a full converter",
+				"c": "A semi-converter has lower values of input p.f as compared to a full converter",
+				"d": "A semi-converter has more THD as compared to a full converter"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "Find the average output dc voltage of a singe phase semi-converter with Vs=230 V and firing angle of 30° ?",
+			"answers": {
+				"a": "193 V",
+				"b": "256 V",
+				"c": "0 V",
+				"d": "230 V"
+			},
+			"correctAnswer": "a"
+		},
+		{
+			"question": "A single phase semi-converter is operated from 120V, 50Hz AC supply at a firing angle of α degrees. The load is such that the load current is continuous and ripple free. The displacement factor of the converter is 0.866. What is the value of sinα ?",
+			"answers": {
+				"a": "0.5",
+				"b": "0.866",
+				"c": "0.707",
+				"d": "1"
+			},
+			"correctAnswer": "b"
+		}
+	]
 }
