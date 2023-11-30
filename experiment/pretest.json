@@ -1,39 +1,58 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
+    "version": 2.0,
+    "questions":[
+		{
+			"question": "What does a single-phase symmetrical semi-converter employ?",
+			"answers": {
+				"a": "One SCR and one diode in each leg",
+				"b": "Two SCRs and two diodes in each leg",
+				"c": "Two SCRs in each leg",
+				"d": "Two diodes in each leg"
+			},
+			"correctAnswer": "a"
+		},
+		{
+			"question": "The power delivery and efficiency is low in which rectifier in reference to phases?",
+			"answers": {
+				"a": "Single",
+				"b": "Three",
+				"c": "Both a and b",
+				"d": "None of these"
+			},
+			"correctAnswer": "a"
+		},
+		{
+			"question": "The angle of conduction in silicon-controlled rectifiers circuit changed by which voltage?",
+			"answers": {
+				"a": "Anode",
+				"b": "Cathode",
+				"c": "Gate",
+				"d": "None of the above"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "A single-phase semi-converter is connected to a 230 V source and is feeding a load R = 10 Ω in series with a large inductance that makes the load current ripple free. Find the average output current for α = 45° ?",
+			"answers": {
+				"a": "14 A",
+				"b": "17 A",
+				"c": "10 A",
+				"d": "0 A"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "A single phase semi-converter is used to control the speed of the small separately excited dc motor at 4.5 kW, 220 V, 1500 rpm. The converter is connected to a single phase 230 V, 50 Hz supply. The armature resistance is Ra = 0.5 Ω and the armature circuit inductance is L<sub>a</sub> = 10 mH. The motor voltage constant is Kb = 0.1 V/rpm . With the converter operates as a rectifier, the dc motor runs at 1200 rpm and carries an armature current of 16 A. Assume that the motor current is continuous and ripple free. How much is the firing angle?",
+			"answers": {
+				"a": "76°",
+				"b": "39°",
+				"c": "60°",
+				"d": "51°"
+			},
+			"correctAnswer": "a"
+		}
+	]
 }
+
+
+
