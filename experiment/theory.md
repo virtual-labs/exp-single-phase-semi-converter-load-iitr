@@ -178,31 +178,31 @@ $V_{o(rms)} = \frac {V_{m}}{\sqrt {2}} \left[ \frac {1}{\pi}(\pi - \alpha + \fra
 ### **Advantages of Single Phase Semi-converter**
 
 1. Single-phase semiconverters have a straightforward design with fewer components compared to three-phase
-          converters. This simplicity makes them cost-effective and easier to implement, particularly for low-power
-          applications.<br>
+converters. This simplicity makes them cost-effective and easier to implement, particularly for low-power
+applications.<br>
 
 2. Due to their simpler design, single-phase semiconverters tend to be more compact, making them suitable for
-          space-constrained applications or when a compact form factor is essential.<br>
+space-constrained applications or when a compact form factor is essential.<br>
 
 3. Controlling single-phase semiconverters is less complex compared to three-phase converters. The control
-          circuitry is simpler, leading to reduced development and maintenance costs.<br>
+circuitry is simpler, leading to reduced development and maintenance costs.<br>
 
 4. Single-phase semiconverters find applications in various industries, including small motor drives, battery
-          chargers, uninterruptible power supplies (UPS), and household appliances like laptops, mobile phone chargers,
-          and small electronic devices.<br>
+chargers, uninterruptible power supplies (UPS), and household appliances like laptops, mobile phone chargers,
+and small electronic devices.<br>
 
 5. By varying the firing angle of the semiconductor switches (such as thyristors or silicon-controlled
-          rectifiers), the output voltage can be controlled effectively. This feature allows for regulation of the
-          output DC voltage, making it suitable for applications where variable voltage control is required.<br>
+rectifiers), the output voltage can be controlled effectively. This feature allows for regulation of the
+output DC voltage, making it suitable for applications where variable voltage control is required.<br>
 
 6. In regions or applications where only single-phase AC power is available, single-phase semiconverters
-          become the obvious choice for converting AC to DC.<br>
+become the obvious choice for converting AC to DC.<br>
 
 ### **Disadvantages of Single Phase Semi-converter**
 
 1. Compared to three-phase converters, single-phase semiconverters have relatively lower efficiency due to the
-          pulsating nature of the output current. Three-phase converters offer smoother output and therefore higher
-          efficiency.<br>
+pulsating nature of the output current. Three-phase converters offer smoother output and therefore higher
+efficiency.<br>
 
 2. Single-phase semiconverters are generally limited to lower power applications. For high-power applications,
 three-phase converters are preferred as they distribute the power more evenly and efficiently.<br>
@@ -222,7 +222,6 @@ interference.
 4. Battery Charging Systems<br>
 
 5. Static VAR systems <br>
-
 
 
 </div>
