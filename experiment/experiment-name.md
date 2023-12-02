@@ -1,1 +1,1 @@
-## Single Phase Semi-Converter With R Load, RL Load and RLE Load
+## Single Phase Semi-Converter with R Load, RL Load and RLE Load

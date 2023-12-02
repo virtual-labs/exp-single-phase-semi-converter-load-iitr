@@ -1,6 +1,4 @@
-{
-    "version": 2.0,
-    "questions":[
+[
 		{
 			"question": "A single phase semi-converter is having continuous conduction, then for what angle each thyristor will conduct?",
 			"answers": {
@@ -52,4 +50,3 @@
 			"correctAnswer": "b"
 		}
 	]
-}
