@@ -1,4 +1,12 @@
 
+<head>
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> 
+  
+</script>
+
+</head>
+
 <div style="font-family: 'Nunito Sans', sans-serif; font-size: 20px;text-align: justify;">
 
 ### **Introduction**
@@ -50,25 +58,25 @@ The average and rms value of output voltage and current are,<br>
 
 <center>
 
-$V_{o} = \frac {V_{m}}{\pi}( 1 + cos⁡\alpha ) .......(1)$
+$$V_{o} = \frac {V_{m}}{\pi}( 1 + cos⁡\alpha ) .......(1)$$
 
 </center>
 
 <center>
 
-$I_{o} = \frac {V_{o}}{R} = \frac {V_{m}}{\pi R} ( 1+ \cos⁡\alpha).......(2)$
+$$I_{o} = \frac {V_{o}}{R} = \frac {V_{m}}{\pi R} ( 1+ \cos⁡\alpha).......(2)$$
 
 </center>
 
 <center>
 
-$V_{o(rms)} = \frac {V_{m}}{\sqrt {2}} \left[ \frac {1}{\pi}(\pi - \alpha + \frac {sin 2\alpha}{2}) \right]^{\frac {1}{2}}.......(3)$
+$$V_{o~(rms)} = \frac {V_{m}}{\sqrt {2}} \left[ \frac {1}{\pi}\left(\pi - \alpha + \frac {sin 2\alpha}{2}\right) \right]^{\frac {1}{2}}.......(3)$$
 
 </center>
 
 <center>
 
-$I_{o(rms)} = \frac {V_{o(rms)}}{R} =\frac {V_{m}}{\sqrt {2}R} \left[ \frac {1}{\pi}(\pi - \alpha + \frac {sin 2\alpha}{2}) \right]^{\frac {1}{2}}.......(4)$
+$$I_{o~(rms)} = \frac {V_{o~(rms)}}{R} =\frac {V_{m}}{\sqrt {2}R} \left[ \frac {1}{\pi}\left(\pi - \alpha + \frac {sin 2\alpha}{2}\right) \right]^{\frac {1}{2}}.......(4)$$
 
 </center>
 
@@ -100,25 +108,25 @@ The average and rms of bridge output voltage are,<br><br>
 
 <center>
 
-$V_{o} = \frac {2}{2\pi} \int_{\alpha}^{\pi} V_{m}\, sinwt\, dwt \,=\,\frac {2V_{m}}{2\pi}[- cos\omega t]_{\alpha}^{\pi}\,=\,\frac {V_{m}}{\pi}(1 + cos\alpha).......(5)$<br>
+$$V_{o} = \frac {2}{2\pi} \int_{\alpha}^{\pi} V_{m}sinwt ~ dwt ~=~\frac {2V_{m}}{2\pi}[- cos\omega t]_{\alpha}^{\pi}~=~\frac {V_{m}}{\pi}(1 + cos\alpha).......(5)$$
 
 </center>
 
 <center>
 
-$V_{o(rms)} = \left[ \frac {2}{2\pi} \int_{\alpha}^{\pi} V_{m}^2\, sin^2wt\, dwt \right]^{\frac {1}{2}}.......(6)$<br>
+$$V_{o~(rms)} = \left[ \frac {2}{2\pi} \int_{\alpha}^{\pi} V_{m}^2 ~ sin^2wt ~ dwt \right]^{\frac {1}{2}}.......(6)$$
 
 </center>
 
 <center>
 
-$V_{o(rms)} = \left[ \frac {V_{m}^{2}}{2\pi} \int_{\alpha}^{\pi} (1 - cos2\omega t)\, dwt\right]^{\frac {1}{2}}.......(7)$<br>
+$$V_{o~(rms)} = \left[ \frac {V_{m}^{2}}{2\pi} \int_{\alpha}^{\pi} (1 - cos2\omega t) ~ dwt\right]^{\frac {1}{2}}.......(7)$$
 
 </center>
 
 <center>
 
-$V_{o(rms)} = \frac {V_{m}}{\sqrt {2}} \left[ \frac {1}{\pi}(\pi - \alpha + \frac {sin 2\alpha}{2}) \right]^{\frac {1}{2}}.......(8)$<br>
+$$V_{o~(rms)} = \frac {V_{m}}{\sqrt {2}} \left[ \frac {1}{\pi}\left(\pi - \alpha + \frac {sin 2\alpha}{2}\right) \right]^{\frac {1}{2}}.......(8)$$
 
 </center>
 
@@ -152,25 +160,25 @@ The circuit consists of two thyristors, two diodes, and a freewheeling diode acr
 The average and rms of bridge output voltage are,<br>
 <center>
 
-$V_{o} = \frac {2}{2\pi} \int_{\alpha}^{\pi} V_{m}\, sinwt\, dwt \,=\,\frac {2V_{m}}{2\pi}[- cos\omega t]_{\alpha}^{\pi}\,=\,\frac {V_{m}}{\pi}(1 + cos\alpha) .......(9)$
+$$V_{o} = \frac {2}{2\pi} \int_{\alpha}^{\pi} V_{m}\, sinwt\, dwt \,=\,\frac {2V_{m}}{2\pi}[- cos\omega t]_{\alpha}^{\pi}\,=\,\frac {V_{m}}{\pi}(1 + cos\alpha) .......(9)$$
 
 </center>
 
 <center>
 
-$V_{o(rms)} = \left[ \frac {2}{2\pi} \int_{\alpha}^{\pi} V_{m}^2\, sin^2wt\, dwt \right]^{\frac {1}{2}}.......(10)$
+$$V_{o~(rms)} = \left[ \frac {2}{2\pi} \int_{\alpha}^{\pi} V_{m}^2 ~ sin^2wt ~ dwt \right]^{\frac {1}{2}}.......(10)$$
 
 </center>
 
 <center>
 
-$V_{o(rms)} = \left[ \frac {V_{m}^{2}}{2\pi} \int_{\alpha}^{\pi} (1 - cos2\omega t)\, dwt\right]^{\frac {1}{2}}.......(11)$
+$$V_{o~(rms)} = \left[ \frac {V_{m}^{2}}{2\pi} \int_{\alpha}^{\pi} (1 - cos2\omega t) ~ dwt\right]^{\frac {1}{2}}.......(11)$$
 
 </center>
 
 <center>
 
-$V_{o(rms)} = \frac {V_{m}}{\sqrt {2}} \left[ \frac {1}{\pi}(\pi - \alpha + \frac {sin 2\alpha}{2}) \right]^{\frac {1}{2}}.......(12)$
+$$V_{o~(rms)} = \frac {V_{m}}{\sqrt {2}} \left[ \frac {1}{\pi}\left(\pi - \alpha + \frac {sin 2\alpha}{2}\right) \right]^{\frac {1}{2}}.......(12)$$
 
 </center>
 
